@@ -17,9 +17,6 @@ A modern, responsive personal portfolio website built with React and Tailwind CS
   - React.js
   - Tailwind CSS
   - PostCSS
-- **Backend**:
-  - Node.js
-  - Express.js
 - **Development**:
   - JavaScript (ES6+)
   - CSS3
