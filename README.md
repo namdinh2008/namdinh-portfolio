@@ -2,6 +2,11 @@
 
 A modern, responsive personal portfolio website built with React and Tailwind CSS, featuring server-side rendering capabilities.
 
+## 🌐 Live Demo
+
+Check out the live version of my portfolio: [Nam Dinh's Portfolio](https://namdinh-portfolio.netlify.app/)
+
+
 ## ✨ Features
 
 - **Server-Side Rendering**: Enhanced performance and SEO optimization
