@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import imageAvatar from "../assets/img/imageAvatar.png";
-import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Banner = () => {
@@ -52,23 +51,21 @@ export const Banner = () => {
         <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
-              {({ isVisible }) =>
               <div className="mt-20">
-              <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+              <div>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Nam`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I'm a full-stack developer with 3+ years of experience in building scalable web applications, using JavaScript, React, TypeScript, and Tailwind CSS. Reach out if you'd like to learn more!</p>
                   
               </div>
-              </div>}
+              </div>
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <TrackVisibility>
-              {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
+                <div>
                   <img src={imageAvatar} alt="Header Img"/>
-                </div>}
+                </div>
             </TrackVisibility>
           </Col>
         </Row>
